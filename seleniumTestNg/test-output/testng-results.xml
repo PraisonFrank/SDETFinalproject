@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-02T16:12:58 IST" name="Default suite" finished-at="2025-04-02T16:13:23 IST" duration-ms="25411">
+    <groups>
+    </groups>
+    <test started-at="2025-04-02T16:12:58 IST" name="Default test" finished-at="2025-04-02T16:13:23 IST" duration-ms="25411">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@489115ef]" started-at="2025-04-02T16:12:58 IST" name="setup" finished-at="2025-04-02T16:13:09 IST" duration-ms="11318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="InvalidLogin()[pri:1, instance:tests.LoginTest@489115ef]" started-at="2025-04-02T16:13:09 IST" name="InvalidLogin" finished-at="2025-04-02T16:13:11 IST" duration-ms="1796" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidLogin -->
+        <test-method signature="BlankLogin()[pri:2, instance:tests.LoginTest@489115ef]" started-at="2025-04-02T16:13:11 IST" name="BlankLogin" finished-at="2025-04-02T16:13:13 IST" duration-ms="1901" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BlankLogin -->
+        <test-method signature="ValidLogin()[pri:3, instance:tests.LoginTest@489115ef]" started-at="2025-04-02T16:13:13 IST" name="ValidLogin" finished-at="2025-04-02T16:13:16 IST" duration-ms="3011" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidLogin -->
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.RegisterPatientTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.RegisterPatientTest@79079097]" started-at="2025-04-02T16:13:16 IST" name="setup" finished-at="2025-04-02T16:13:16 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="NavigateToRegister()[pri:1, instance:tests.RegisterPatientTest@79079097]" started-at="2025-04-02T16:13:16 IST" name="NavigateToRegister" finished-at="2025-04-02T16:13:22 IST" depends-on-methods="tests.LoginTest.ValidLogin" duration-ms="5746" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateToRegister -->
+        <test-method signature="EnterName()[pri:2, instance:tests.RegisterPatientTest@79079097]" started-at="2025-04-02T16:13:22 IST" name="EnterName" finished-at="2025-04-02T16:13:22 IST" duration-ms="262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterName -->
+        <test-method signature="SelectGender()[pri:3, instance:tests.RegisterPatientTest@79079097]" started-at="2025-04-02T16:13:22 IST" name="SelectGender" finished-at="2025-04-02T16:13:22 IST" duration-ms="225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectGender -->
+        <test-method signature="EnterDob()[pri:4, instance:tests.RegisterPatientTest@79079097]" started-at="2025-04-02T16:13:22 IST" name="EnterDob" finished-at="2025-04-02T16:13:23 IST" duration-ms="539" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterDob -->
+        <test-method signature="EnterAddress()[pri:5, instance:tests.RegisterPatientTest@79079097]" started-at="2025-04-02T16:13:23 IST" name="EnterAddress" finished-at="2025-04-02T16:13:23 IST" duration-ms="191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterAddress -->
+        <test-method signature="EnterNumber()[pri:6, instance:tests.RegisterPatientTest@79079097]" started-at="2025-04-02T16:13:23 IST" name="EnterNumber" finished-at="2025-04-02T16:13:23 IST" duration-ms="331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterNumber -->
+        <test-method signature="ValidateSuccess()[pri:7, instance:tests.RegisterPatientTest@79079097]" started-at="2025-04-02T16:13:23 IST" name="ValidateSuccess" finished-at="2025-04-02T16:13:23 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateSuccess -->
+      </class> <!-- tests.RegisterPatientTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
